@@ -1,5 +1,6 @@
 <?php
-class Rectangle extends Forme
+require_once __DIR__."/Forme.php";
+class Rectangle
 {
     public float $longeur;
     public float $largeur;
